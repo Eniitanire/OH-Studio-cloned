@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden;
+}
+
+main{
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+    
+}
+
+nav{
+    background-color: rgba(238, 233, 233, 0.6);
+    padding: 17px 30px;
+    border-radius: 50px;
+    position: fixed;
+    top: 10;
+    overflow: hidden;
+   
+}
+
+li,a{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.active{
+    background-color: white;
+    padding: 15px 32px;
+    border-radius: 50px;
+    margin-left: 14px;
+}
+
+.brandname2{
+    margin-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    font-size: 70px;
+    word-spacing: 3px;
+    line-height: 1.2;
+    margin-left: 25%;
+}
+
+.brandtag{
+    margin-top: -15px;
+    /* font-family: 'Open Sans', sans-serif; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    width: 600px;
+    font-size: 65px;
+    word-spacing: 2px;
+    margin-left: 36%;
+    color: rgba(173, 166, 166, 0.9);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    width: 90%;
+    
+   
+}
+
+.one{
+    display: flex;
+}
+
+i{
+    width: 40px;
+    margin-top: 5px;
+}
+
+
+h5, .three{
+    font-size: 20px;
+}

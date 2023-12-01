@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 140px;
+    
+}
+
+nav{
+    background-color: rgba(238, 233, 233, 0.6);
+    padding: 17px 30px;
+    border-radius: 50px;
+    position: fixed;
+    top: 10;
+    overflow: hidden;
+   
+}
+ 
+li,a{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.active{
+    background-color: white;
+    padding: 15px 32px;
+    border-radius: 50px;
+    margin-left: -25px;
+}
+
+.brandname, .list2{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.brandname{
+    width: 650px;
+    font-size: 55px;
+    word-spacing: 5px;
+    margin-left: 30%;
+}
+
+.lists2{
+    display: flex;
+    font-size: 15px;
+    margin-left: 31%;
+    margin-top: -50px;
+    
+}
+
+.list2{
+    background-color: rgba(238, 233, 233, 0.6);
+    padding: 10px 22px;
+    border-radius: 50px;
+    margin-left: -25px;
+    margin: 8px;
+    
+}
+
+.grid-item{
+    display: grid;
+    grid-template-rows:repeat(6, 100px);
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 400px 600px; 
+    margin-top: 340px;
+    align-items: center;
+    margin-left: 1%;
+    /* justify-content: center; */
+   
+}
+
+.grid-items{
+    position: relative;
+}
+
+.grid-items1, .grid-items2, .grid-items3, .grid-items4, .grid-items6, .grid-items7, .grid-items9, .grid-items10, .grid-items11{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.overlay h4, i{
+    filter: none;
+}
+
+h4, .fa-arrow-up{
+    color: white;
+}
+
+.grid-items1{
+    background-image: url(img/boy1.jpg);  
+}
+
+.grid-items2{
+    background-image: url(img/img2.jpg);
+}
+
+.grid-items3{
+    background-image: url(img/img3.webp);
+}
+
+.grid-items4{
+    background-image: url(img/img4.webp);   
+}
+
+.grid-items6{
+    background-image: url(img/img5.webp); 
+}
+
+.grid-items7{
+    background-image: url(img/img6.webp);
+}
+
+.grid-items7{
+    background-image: url(img/img6.webp);
+}
+
+.grid-items9{
+    background-image: url(img/img7.webp);
+}
+
+.grid-items10{
+    background-image: url(img/img8.webp);
+}
+
+.grid-items11{
+    background-image: url(img/img9.webp);
+}
+
+.grid-items1:hover, .grid-items2:hover,.grid-items3:hover, .grid-items4:hover, .grid-items6:hover, .grid-items7:hover, .grid-items9:hover, .grid-items10:hover, .grid-items11:hover{
+    filter: blur(8px);
+}
+
+.overlay, .overlay2, .overlay3, .overlay4, .overlay6, .overlay7, .overlay9, .overlay10, .overlay11{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: -20px;
+}
+
+.overlay:hover, .overlay2:hover, .overlay3:hover, .overlay4:hover, .overlay6:hover, .overlay7:hover, .overlay9:hover, .overlay10:hover, .overlay11:hover{
+    opacity: 1;
+   /* -webkit-filter: blur(8px);*/
+    /* filter: blur(4px); */
+}  
+
+
+video{
+    width: 680px;
+    border-radius: 10px;
+    margin-top: -70px;
+    margin-left: -20px;
+    
+}
+
+video:hover{
+    
+    filter: blur(8px);
+    opacity: 1;
+}
+
+
+.brandname2{
+    margin-top: 350px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 600px;
+    font-size: 50px;
+    word-spacing: 2px;
+    margin-left: 30%;
+}
+
+.brandtag{
+    margin-top: -110px;
+    /* font-family: 'Open Sans', sans-serif; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 600px;
+    font-size: 39px;
+    word-spacing: 2px;
+    margin-left: 37%;
+    color: rgba(173, 166, 166, 0.9);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.one{
+    display: flex;
+}
+
+i{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.two{
+    position: fixed;
+    bottom: 40px;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 530%;
+}
+
+h5, .three{
+    font-size: 20px;
+
+}
+
